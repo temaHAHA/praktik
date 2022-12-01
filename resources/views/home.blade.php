@@ -1,3 +1,4 @@
+
 @extends('layouts.app')
 
 @section('content')
@@ -16,6 +17,7 @@
 
                     {{ __('You are logged in!') }}
                 </div>
+                
             </div>
         </div>
     </div>

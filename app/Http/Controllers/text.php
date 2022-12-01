@@ -49,8 +49,12 @@
 			$text = $request->only('name', 'surname', 'login');
 			return view('text.form', ['text' => $text]);
 		}
-
+		public function hj(){
+			return view('sa');
+		}
 	}
+
+	
 
 
 
