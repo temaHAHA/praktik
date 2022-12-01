@@ -45,4 +45,9 @@ Route::match(['get', 'post'],'/all',[App\Http\Controllers\text::class,'all'] );
 
 
 Route::match(['get', 'post'],'/all',[App\Http\Controllers\text::class,'dfgdfg'] );
-?>
+
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
