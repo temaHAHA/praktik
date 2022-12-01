@@ -42,4 +42,7 @@ route::get('/form',[App\Http\Controllers\text::class,'form'] );
 route::post('/text/result',[App\Http\Controllers\text::class,'result'] );
 Route::match(['get', 'post'], '/pg', [App\Http\Controllers\text::class,'pg'] );
 Route::match(['get', 'post'],'/all',[App\Http\Controllers\text::class,'all'] );
+
+
+Route::match(['get', 'post'],'/all',[App\Http\Controllers\text::class,'dfgdfg'] );
 ?>
