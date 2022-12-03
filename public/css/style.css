@@ -1,14 +1,15 @@
-#wrapepr{
-  width: 1000px;
-  margin: 30px auto;
-  border: 1px solid black;
+.logo{
+  width: 150px;
+  height: 100px;
 }
 
-#header{
-  height: 200px;
-  border: 1px solid black;
+li{
+  list-style-type: none;
 }
-#footer{
-  height: 200px;
-  border: 1px solid black;
+
+.nav{
+  text-decoration: none;
+  color: #666;
 }
+
+footer{}
