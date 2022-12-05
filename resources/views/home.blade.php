@@ -1,4 +1,6 @@
-
+<head>
+@vite(['resources/sass/app.scss', 'resources/js/app.js'])
+</head>
 @extends('layouts.app')
 
 @section('content')
@@ -15,11 +17,17 @@
                         </div>
                     @endif
 
-                    {{ __('You are logged in!') }}
+                    {{ __('Вы авторизовались!') }}
                 </div>
-                
+               
             </div>
         </div>
     </div>
+</div>
+
+<div class="container">
+       <div class="d-flex justify-content-center w-100 py-5">
+             <button type="button" class="btn btn-success">Перейти на главную страницу</button>
+       </div>
 </div>
 @endsection
