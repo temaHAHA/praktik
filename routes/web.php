@@ -54,3 +54,5 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 route::get('/hj',[App\Http\Controllers\text::class,'hj'] );
 
 route::get('/main',[App\Http\Controllers\praktika::class,'glav'] );
+
+route::get('/product',[App\Http\Controllers\ProductController::class,'comics'] );

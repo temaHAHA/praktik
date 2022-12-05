@@ -27,7 +27,7 @@
 
 <div class="container">
        <div class="d-flex justify-content-center w-100 py-5">
-             <button type="button" class="btn btn-success">Перейти на главную страницу</button>
+             <a href="/main"><button type="button" class="btn btn-success">Перейти на главную страницу</button></a>
        </div>
 </div>
 @endsection

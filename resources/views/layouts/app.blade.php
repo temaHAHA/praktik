@@ -86,36 +86,6 @@
         </main>
     </div>
 
-    <footer>
-          <div class="container">
-            <div class=" d-flex flex-row justify-content-between flex-wrap">
-              <div class="d-flex pt-3 col-lg-3 col-sm-6 col-12 col-md-5">
-                <img src="/public/img/logo.png" alt="logo" class="logo">
-                <ul>
-                  <li class="text fs-4">Pizza</li>
-                  <li><a href="#pizza" class="text">Меню</a></li>
-                  <li><a href="feedback" class="text-whi">Отзывы</a></li>
-                </ul>
-              </div>
-              <div class="d-flex pt-3 col-lg-3 col-sm-6 col-12 col-md-5 justify-content-center align-items-center">
-                <ul class="ps-0">
-                  <li class="text fs-4">Контакты</li>
-                  <li class="text">Наша почта: PizzaOmsk@mail.ru</li>
-                  <li class="text">Наш номер: 7(950)547-65-87</li>
-                </ul>
-              </div>
-              <div class="d-flex justify-content-center pt-3 align-items-center col-lg-3 col-sm-6 col-12 col-md-5">
-                <ul class="d-flex align-items-center justify-content-center">
-                  <li><a href="https://vk.com"><img src="/public/img/icons/vk1.png" alt="" width="50px" class="my-2 me-4"></a></li>
-                  <li><a href="https://youtube.com"><img src="/public/img/icons/youtube.png" alt="" width="50px"></a></li>
-                </ul>
-                
-              </div>
-            </div>
-            <div class="d-flex justify-content-center text-white">
-              © Pizza 2022 - 2022
-            </div>
-          </div>
-        </footer>
+   
 </body>
 </html>
