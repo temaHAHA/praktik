@@ -25,3 +25,8 @@ footer{
 ol, ul{
   padding-left: 0rem;
 }
+
+.img-size{
+  height: 400px;
+}
+
