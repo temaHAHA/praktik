@@ -24,12 +24,12 @@
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
-                    <img src="public/img/logo.png" alt="" class="logo">
+                    <img src="/public/img/logo.png" alt="" class="logo">
                 </a>
                 <div>
                 <ul class="d-flex justify-content-between">
                     <li><a class="nav px-3" href="http://jtdmufg-m1.wsr.ru/aboutus">О нас</a></li>
-                    <li><a class="nav px-3" href="">Каталог</a></li>
+                    <li><a class="nav px-3" href="http://jtdmufg-m1.wsr.ru/public/catalog">Каталог</a></li>
                     <li><a class="nav px-3" href="">Где нас найти</a></li>
                 </ul>
                 </div>
@@ -49,13 +49,13 @@
                         @guest
                             @if (Route::has('login'))
                                 <li class="nav-item">
-                                    <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
+                                    <a class="nav-link" href="{{ route('login') }}">{{ __('Авторизуйтесь') }}</a>
                                 </li>
                             @endif
 
                             @if (Route::has('register'))
                                 <li class="nav-item">
-                                    <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
+                                    <a class="nav-link" href="{{ route('register') }}">{{ __('Зарегистрируйтесь') }}</a>
                                 </li>
                             @endif
                         @else
@@ -68,7 +68,7 @@
                                     <a class="dropdown-item" href="{{ route('logout') }}"
                                        onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
-                                        {{ __('Logout') }}
+                                        {{ __('Выйти') }}
                                     </a>
 
                                     <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">

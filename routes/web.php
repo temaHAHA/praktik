@@ -56,4 +56,6 @@ route::get('/hj',[App\Http\Controllers\text::class,'hj'] );
 route::get('/main',[App\Http\Controllers\praktika::class,'glav'] );
 
 route::get('/aboutus',[App\Http\Controllers\ProductController::class,'comics'] );
+route::get('/catalog',[App\Http\Controllers\ProductController::class,'catalog'] );
+route::get('/catalog/{id}',[App\Http\Controllers\ProductController::class,'tovar'] );
 

@@ -30,4 +30,18 @@ ol, ul{
   height: 400px;
 }
 
+.card{
+  border: 2px solid;
+
+}
+.content{
+  margin-right: 50px;
+  margin-left: 250px;
+}
+
+.img-katalog{
+  height: 300px;
+  width: 150px;
+}
+
 
