@@ -30,7 +30,7 @@
                 <ul class="d-flex justify-content-between">
                     <li><a class="nav px-3" href="http://jtdmufg-m1.wsr.ru/aboutus">О нас</a></li>
                     <li><a class="nav px-3" href="http://jtdmufg-m1.wsr.ru/public/catalog">Каталог</a></li>
-                    <li><a class="nav px-3" href="">Где нас найти</a></li>
+                    <li><a class="nav px-3" href="http://jtdmufg-m1.wsr.ru/find">Где нас найти</a></li>
                 </ul>
                 </div>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">

@@ -58,4 +58,5 @@ route::get('/main',[App\Http\Controllers\praktika::class,'glav'] );
 route::get('/aboutus',[App\Http\Controllers\ProductController::class,'comics'] );
 route::get('/catalog',[App\Http\Controllers\ProductController::class,'catalog'] );
 route::get('/catalog/{id}',[App\Http\Controllers\ProductController::class,'tovar'] );
+route::get('/find',[App\Http\Controllers\ProductController::class,'find'] );
 

@@ -21,4 +21,9 @@ class ProductController extends Controller
         $comic=\App\Models\product::find($id);
     return view('praktika.product', ['comic'=>$comic ]);
     }
+
+    public function find(){
+
+    return view('praktika.naiti');
+    }
 }
