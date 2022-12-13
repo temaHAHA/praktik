@@ -13,12 +13,32 @@ class ProductController extends Controller
 
     public function catalog(){
         $comic=\App\Models\product::orderBy('id', 'desc')->get();
-    return view('praktika.catalog', ['comic'=>$comic ]);
+        $categor=\App\Models\product::get();
+        $categorName=\App\Models\product::get();
+    return view('praktika.catalog', ['comic'=>$categor, 'categorName'=>$categorName]);
+    
     }
 
     public function tovar($id){
       
         $comic=\App\Models\product::find($id);
     return view('praktika.product', ['comic'=>$comic ]);
+    }
+
+    public function find(){
+
+        return view('praktika.naiti');
+    }
+
+    public function sort($category){
+        $categor=\App\Models\product::where('category', $category)->get();
+        $categorName=\App\Models\product::get();
+    return view('praktika.catalog', ['comic'=>$categor, 'categorName'=>$categorName, 'category'=>$category   ]);
+    }
+
+    public function Price($name, $nap){
+        $comic=\App\Models\product::orderby($name,$nap)->get();
+        $categorName=\App\Models\product::get();
+    return view('praktika.catalog', ['comic'=>$comic, 'categorName'=>$categorName, 'category'=>$nap   ]);
     }
 }

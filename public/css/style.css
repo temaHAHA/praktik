@@ -1,3 +1,15 @@
+@media(min-width: 1026px){
+  .content{
+    margin-right: 50px;
+    margin-left: 250px;
+  }
+}
+@media(max-width: 1024px){
+  .content{
+    margin-left: 150px;
+  }
+}
+
 .logo{
   width: 150px;
   height: 100px;
@@ -34,10 +46,7 @@ ol, ul{
   border: 2px solid;
 
 }
-.content{
-  margin-right: 50px;
-  margin-left: 250px;
-}
+
 
 .img-katalog{
   height: 300px;
