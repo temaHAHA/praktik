@@ -58,10 +58,5 @@ route::get('/main',[App\Http\Controllers\praktika::class,'glav'] );
 route::get('/aboutus',[App\Http\Controllers\ProductController::class,'comics'] );
 route::get('/catalog',[App\Http\Controllers\ProductController::class,'catalog'] );
 route::get('/catalog/{id}',[App\Http\Controllers\ProductController::class,'tovar'] );
-<<<<<<< HEAD
-route::get('/catalog/{name}',[App\Http\Controllers\ProductController::class,'sort'] );
-route::get('/catalog/{name}/{nap}',[App\Http\Controllers\ProductController::class,'price'] );
-=======
->>>>>>> d3699683dea439d7d4d29fbefcc53519bb0c5316
 route::get('/find',[App\Http\Controllers\ProductController::class,'find'] );
 
