@@ -30,7 +30,7 @@
                     <div class="d-flex flex-row justify-content-between align-items-center">
                         <a href="/catalog/{{$comi->id}}" class="nav">Подробнее</a>
                         @auth
-                        <a href="">Добавить в корзину</a>
+                        <a href="" class="">Добавить в корзину</a>
                         @else
                         <a href=""></a>
                         @endauth

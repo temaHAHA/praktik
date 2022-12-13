@@ -27,7 +27,6 @@ class ProductController extends Controller
 
     public function find(){
 
-<<<<<<< HEAD
         return view('praktika.naiti');
     }
 
@@ -41,8 +40,5 @@ class ProductController extends Controller
         $comic=\App\Models\product::orderby($name,$nap)->get();
         $categorName=\App\Models\product::get();
     return view('praktika.catalog', ['comic'=>$comic, 'categorName'=>$categorName, 'category'=>$nap   ]);
-=======
-    return view('praktika.naiti');
->>>>>>> d3699683dea439d7d4d29fbefcc53519bb0c5316
     }
 }
